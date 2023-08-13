@@ -1,0 +1,11 @@
+[Unit]
+Description=Kernel Logs Collection Service for a regular auto hour logger
+
+[Service]
+Type=simple
+name=Husam
+ExecStart=/home/husam/Bashfiles/kernel_logs_script.sh
+
+[Install]
+WantedBy=default.target
+
